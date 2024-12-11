@@ -1,0 +1,3 @@
+# Integer Overflow Bug in Hack
+
+This repository demonstrates a subtle integer overflow bug in a simple Hack program. The program contains two functions, `foo` and `bar`, that perform basic arithmetic operations on integers. However, when the input to the function is large enough, an integer overflow occurs, resulting in incorrect output.  The `bug.hack` file contains the buggy code, while `bugSolution.hack` provides a corrected version.  The solution includes checks to handle potential overflow situations. 
